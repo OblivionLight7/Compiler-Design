@@ -1,0 +1,14 @@
+𝗛𝗼𝘄 𝘁𝗼 𝗿𝘂𝗻 𝗟𝗘𝗫/𝗙𝗟𝗘𝗫 𝗙𝗶𝗹𝗲𝘀 𝗶𝗻 𝘁𝗵𝗲 𝘁𝗲𝗿𝗺𝗶𝗻𝗮𝗹:
+
+flex "nameoffile.l" (Note : Use your own file name)
+gcc lex.yy.c
+ ./a.out or ./a.exe or a exe
+		 
+
+
+𝗛𝗼𝘄 𝘁𝗼 𝗿𝘂𝗻 BISON 𝗙𝗶𝗹𝗲𝘀 𝗶𝗻 𝘁𝗵𝗲 𝘁𝗲𝗿𝗺𝗶𝗻𝗮𝗹:
+
+flex "nameoffile.l" (Note : Use your own file name)
+bison -d "nameoffile.y"
+gcc lex.yy.c nameoffile.tab.c
+ ./a.out or ./a.exe or a exe
